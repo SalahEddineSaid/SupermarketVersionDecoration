@@ -1,6 +1,5 @@
-package service;
+package Offer;
 
-import dao.offersRepository;
 import entity.Offers;
 
 import java.util.ArrayList;

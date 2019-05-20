@@ -1,8 +1,11 @@
-package service;
+package servicePrint;
 
-import dao.PaiementStrategy;
+import Basket.BasketListService;
+import Pricing.BuyOneGetOneFree;
+import Pricing.PaiementStrategy;
+import Pricing.ThreeForPriceOfTwo;
+import Pricing.Unitprice;
 import entity.Article;
-import entity.Offers;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package dao;
+package Offer;
 
 import entity.Offers;
 

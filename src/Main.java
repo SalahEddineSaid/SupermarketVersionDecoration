@@ -1,6 +1,8 @@
+import Basket.BasketListService;
+import Pricing.BuyOneGetOneFree;
+import Pricing.ThreeForPriceOfTwo;
+import Pricing.Unitprice;
 import entity.Article;
-import entity.Offers;
-import service.*;
 
 
 public class Main {
@@ -8,7 +10,8 @@ public class Main {
     public static void main(String[] args) {
 
         //test avec interaction system au niveau console
-        PrintService print = new PrintService();
+
+     /*   PrintService print = new PrintService();
 
 
         System.out.println("Partie Agent supermarche");
@@ -28,10 +31,10 @@ public class Main {
         //paiement et affichage du panier
        basketListeservice.payerAllArticles();
 
-
+*/
 
         /*Test sans interaction*/
-/*
+
 
 
 
@@ -56,6 +59,5 @@ public class Main {
 
 
 
-*/
     }
 }

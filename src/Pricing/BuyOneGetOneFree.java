@@ -1,8 +1,6 @@
-package service;
+package Pricing;
 
-import dao.PaiementStrategy;
 import entity.Article;
-import entity.Offers;
 
 public class BuyOneGetOneFree extends PaiementStrategy {
 

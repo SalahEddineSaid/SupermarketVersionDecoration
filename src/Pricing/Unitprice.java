@@ -1,6 +1,5 @@
-package service;
+package Pricing;
 
-import dao.PaiementStrategy;
 import entity.Article;
 
 public class Unitprice extends PaiementStrategy {
@@ -35,7 +34,6 @@ public class Unitprice extends PaiementStrategy {
 
 
     public double getMontantNodiscount() {
-
 
         if (this.quantity > this.article.getStock())
             return this.article.getPrice() * this.article.getStock();

@@ -1,4 +1,4 @@
-package dao;
+package Pricing;
 
 import entity.Article;
 
@@ -11,7 +11,7 @@ public abstract class PaiementStrategy {
         this.sum=this.sum+montant;
         System.out.println(
                 " ---Aticle  :  " + a.getName() + "---quantity" + quantity+
-                " ---montantSansOffer : " + montant +"----Montant reel :"+quantity*a.getPrice()+"   Panier:--- Totale="+this.sum);
+                " ---montantOffer : " + montant +"----Montant reel :"+quantity*a.getPrice()+"   Panier:--- Totale="+this.sum);
     }
 
 

@@ -1,5 +1,6 @@
-package dao;
+package Basket;
 
+import Pricing.PaiementStrategy;
 import entity.Article;
 
 public interface BasketListRepository {

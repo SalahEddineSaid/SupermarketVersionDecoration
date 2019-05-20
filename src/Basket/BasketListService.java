@@ -1,7 +1,6 @@
-package service;
+package Basket;
 
-import dao.BasketListRepository;
-import dao.PaiementStrategy;
+import Pricing.PaiementStrategy;
 import entity.Article;
 import entity.BasketList;
 

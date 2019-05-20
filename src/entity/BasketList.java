@@ -1,6 +1,6 @@
 package entity;
 
-import dao.PaiementStrategy;
+import Pricing.PaiementStrategy;
 
 import java.util.HashMap;
 import java.util.Map;

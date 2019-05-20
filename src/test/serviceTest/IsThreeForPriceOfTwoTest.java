@@ -4,7 +4,7 @@ import entity.Article;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import service.ThreeForPriceOfTwo;
+import Pricing.ThreeForPriceOfTwo;
 
 import java.math.BigDecimal;
 

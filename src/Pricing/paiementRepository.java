@@ -1,4 +1,4 @@
-package dao;
+package Pricing;
 import entity.Article;
 
 public interface paiementRepository {

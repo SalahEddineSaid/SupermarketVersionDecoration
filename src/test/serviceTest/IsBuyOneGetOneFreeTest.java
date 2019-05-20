@@ -6,7 +6,7 @@ import entity.Article;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import service.BuyOneGetOneFree;
+import Pricing.BuyOneGetOneFree;
 
 import java.math.BigDecimal;
 

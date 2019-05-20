@@ -1,6 +1,5 @@
-package service;
+package Pricing;
 
-import dao.PaiementStrategy;
 import entity.Article;
 
 public class ThreeForPriceOfTwo extends PaiementStrategy {
